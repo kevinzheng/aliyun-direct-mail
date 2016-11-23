@@ -1,20 +1,25 @@
 {
-    "name": "hyancat/aliyun-direct-mail",
-    "description": "阿里云邮件推送 for Laravel.",
+    "name": "kevinzheng/laravel-directmail",
+    "description": "Aliyun Direct Mail for Laravel.",
     "license": "MIT",
+    "homepage": "https://github.com/kevinzheng/laravel-directmail",
+    "support": {
+        "issues": "https://github.com/kevinzheng/laravel-directmail/issues",
+        "source": "https://github.com/kevinzheng/laravel-directmail"
+    },
     "authors": [
         {
-            "name": "HyanCat",
-            "email": "hyancat@live.cn"
+            "name": "Kevin Zheng",
+            "email": "realkvz@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "~5.0"
+        "php": ">=5.6",
+        "illuminate/support": "5.*"
     },
     "autoload": {
         "psr-4": {
-            "HyanCat\\DirectMail\\": "src/"
+            "KVZ\\Laravel\\DirectMail\\": "src/"
         }
     }
 }

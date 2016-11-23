@@ -1,5 +1,5 @@
 <?php
-namespace HyanCat\DirectMail;
+namespace KVZ\Laravel\DirectMail;
 
 use Illuminate\Mail\TransportManager;
 use Illuminate\Support\ServiceProvider;

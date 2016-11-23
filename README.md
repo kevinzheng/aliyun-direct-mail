@@ -9,7 +9,7 @@
 1. 使用 `composer` 安装文件
 
    ```bash
-   composer require hyancat/aliyun-direct-mail:dev-master
+   composer require kevinzheng/laravel-directmail
    ```
 
 1. 在 `config/services.php` 中添加如下配置:
@@ -39,7 +39,7 @@
    ```
    'providers' => [
        ...
-       HyanCat\DirectMail\AliyunDirectMailServiceProvider::class,
+       KVZ\DirectMail\AliyunDirectMailServiceProvider::class,
        ...
    ],
    ```

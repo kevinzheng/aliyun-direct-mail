@@ -1,5 +1,5 @@
 <?php
-namespace HyanCat\DirectMail;
+namespace KVZ\Laravel\DirectMail;
 
 use Dm\Request\V20151123 as DM;
 use Illuminate\Mail\Transport\Transport;
